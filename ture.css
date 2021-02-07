@@ -1,0 +1,108 @@
+h1{
+color:#FF00FF;
+}
+h1:hover{
+color:#FF8C00;
+}
+.div1{
+height:300px;
+width:300px;
+clip-path:circle(30% at 147px 144px);
+background-color:yellow;
+float:left;
+}
+.div1:hover{
+background-color:red;
+}
+.div2{
+height:300px;
+width:300px;
+border:1px solid red;
+clip-path:ellipse(20% 30% at 146px 150px);
+background-color:#ADFF2F;
+float:right;
+}
+.div2:hover{
+background-color:red;
+}
+#Ads{
+writing-mode:vertical-lr;
+writing-mode:sideways-lr;
+word-spacing:5px;
+font-weight:bold;
+font-family:Impact;
+text-orientation:upright;
+font-size:20px;
+color:red;
+padding:0px 300px;
+}
+#Ads:hover{
+color:green;
+}
+button{
+height:50px;
+width:100px;
+clear:both;
+background-color:green;
+font-size:20px;
+font-weight:bold;
+font-family:Impact;
+color:red;
+border-radius:2px 7px;
+}
+button:hover{
+border-radius:8px 20px;
+border:5px solid red;
+}
+.load{
+border-radius:50%;
+height:100px;
+width:100px;
+border:12px solid grey;
+border-top:12px solid red;
+border-left:12px solid blue;
+animation:sndp 2s  infinite linear;
+}
+@keyframes sndp{
+        0%{transform:rotate(0deg);}
+        100%{transform:rotate(360deg);}
+}
+.load:hover{
+animation-play-state:paused; 
+}
+
+.trgt{
+text-decoration:none;
+}
+p:target{
+border:2px solid green;
+background-color:yellow;
+width:25%;
+}
+.fldset{
+height:400px;
+width:400px;
+margin:0 auto;
+background-color:#000000;
+opacity:0.7;
+}
+.lgend{
+color:red;
+}
+.cntr{
+color:white;
+padding-left:130px;
+}
+.inpt1{
+height:30px;
+width:195px;
+background-color:#48D1CC;
+opacity:1;
+}
+.fildset{
+width:300px;
+margin:0 auto;
+}
+label{
+font-weight:bolder;
+}

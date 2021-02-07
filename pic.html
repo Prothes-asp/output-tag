@@ -1,0 +1,140 @@
+<html>
+<head>
+<title>Picture Style</title>
+<link rel="stylesheet" type="text/css" href="ture.css">
+<style type="text/css">
+
+	.angel{
+         height:100px;
+         width:200px;
+         background-color:red;
+         margin:100px;
+         transition:transform 2s linear 0s;
+         }
+         .angel:hover{
+         transform:rotate(2000deg);
+         transform-origin:center;
+         }
+         .usd{
+         	border: none;
+         	outline: none;
+         	font-weight: bold;
+         }
+</style>
+</head>
+<body>
+<h1>Picture Many Style</h1>
+
+<div  class="div1">
+</div>
+<div  class="div2">
+</div>
+
+<p id="Ads">MY NEW PAGE</p>
+
+<a href="www.google.com" target="blank"><button>Google</button></a><br><br><br><br><br><br>
+<div class="load"></div>
+<br><br><br><br><br><br><br><br>
+<center><h1>MY PAGE</h1></center>
+<br><br><br><br><br><br><br><br>
+<a href="#html" class="trgt">What you mean by HTML ?</a><br>
+<a href="#css" class="trgt">What you mean by CSS ?</a><br>
+<a href="#js" class="trgt">What you mean by JS ?</a><br>
+
+<p id="html">I mean html by Hyper Text Markup Language</p>
+<p id="css">I mean css by Cascading Style Sheets</p>
+<p id="js">I mean Js by Java-Script</p>
+<br><br><br><br><br><br><br><br>
+
+<form>
+<fieldset class="fldset">
+      <legend class="lgend"><b>Application Form:</b></legend>
+      <table>
+      <tr>
+              <td>
+                       <input type="submit" value="Sing Up" class="inpt1"><input type="submit" value="Log in" class="inpt1">
+              </td>
+      </tr>
+      <tr>
+             <td class="cntr"><h3>Sing    Up    for   Free</h3></td>
+      </tr>
+
+</table>
+</fieldset>
+</form>
+<br><br><br><br><br><br><br><br>
+
+<fieldset class="fildset">
+             <legend>Billing Details :</legend>
+<form oninput="amount.value = (hours.valueAsNumber * charge.valueAsNumber)+(hours.valueAsNumber * extra.valueAsNumber)">
+              <h4>Billing Details:</h4>
+           <p>
+                  <label>Billed hours :</label>
+                  <input type="number" min="0" id="hours" name="hours">
+          </p>
+           <p>
+                  <label>Charge :</label>
+                  <input type="number" min="0" id="charge" name="rate">
+          </p>
+           <p>
+                  <label>Others:</label>
+                  <input type="number" min="0" id="extra" name="vat" value="0.30">
+          </p>
+            <p>
+                     Total:<strong>$<output name="amount"  id="amount">0</output></strong>
+            </p>
+</form>
+</fieldset>
+
+<br><br><br><br><br><br><br><br>
+
+<fieldset class="fildset">
+             <legend>Multiplextion :</legend>
+<form oninput="amount.value = (firstnumber.valueAsNumber * seceondnumber.valueAsNumber)">
+              <h4>Multiplextion :</h4>
+           <p>
+                  <label>1st Number :</label>
+                  <input type="number" min="0" id="firstnumber">
+          </p>
+           <p>
+                  <label>2nd Number :</label>
+                  <input type="number" min="0" id="seceondnumber">
+          </p>
+            <p>
+                     <strong>Multiplextion:<output name="amount"  id="amount">0</output></strong>
+            </p>
+</form>
+</fieldset>
+
+
+<br><br><br><br><br><br><br><br>
+
+<fieldset class="fildset">
+             <legend>Currency :</legend>
+<form oninput="amount.value = (firstnumber.valueAsNumber *84.5)">
+
+
+              <h4>Currency :</h4>
+           <p>
+                  <label>USD :$</label><input type="number" min="0" id="firstnumber" name="hours" value="0" class="usd">
+          </p>
+            <p>
+                    <label>BDT :</label><strong><output name="amount"  id="amount">0</output></strong>
+            </p>
+</form>
+</fieldset>
+<br><br><br><br>
+
+<details>
+          <summary>The Details 26 Word</summary>
+         <p>A quick brown fox jumps over the lazy dog </p>
+</details>
+<br><br><br><br>
+
+
+
+<div class="angel"></div>
+
+<br><br><br><br>
+</body>
+</html>
